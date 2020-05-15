@@ -1,4 +1,4 @@
-""" binary to decimal """
+""" Binary to decimal """
 
 binary = '01010101'
 decimal = 0
