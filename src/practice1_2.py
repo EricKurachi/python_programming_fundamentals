@@ -1,4 +1,7 @@
-""" Decimal to binary """
+"""
+Use the conversion algorithm to find the binary representation
+of 58
+"""
 
 remainders = ''
 decimal_number = 58

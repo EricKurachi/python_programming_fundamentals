@@ -1,4 +1,6 @@
-""" Find the negative of a binary number. Only works with numbers ended in 1 """
+"""
+Find the negative of a binary number. Only works with numbers ended in 1
+"""
 
 binary_number = 0b01010011
 binary_number_str = '01010011'

@@ -1,4 +1,6 @@
-""" Binary to decimal """
+"""
+What is the decimal equivalent of the binary number 01010101?
+"""
 
 binary = '01010101'
 decimal = 0
