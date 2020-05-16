@@ -1,0 +1,1 @@
+""" The programmer determines it by setting the type of the variable """
