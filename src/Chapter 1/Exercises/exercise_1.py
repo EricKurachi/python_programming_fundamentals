@@ -8,8 +8,11 @@ e ASCII value is 101
 n ASCII value is 110
 t ASCII value is 116
 """
+name = ''
 
-name = input("Please enter your name: ")
+# the while line ensures that the string have at least 4 characters, but for the exercise it's optional
+while len(name) < 4:
+    name = input("Please enter your name: ")
 
 print("{} ASCII value is {}".format(name[0], ord(name[0])))
 print("{} ASCII value is {}".format(name[1], ord(name[1])))
