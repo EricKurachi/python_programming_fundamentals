@@ -9,4 +9,4 @@ first_number = 1
 last_number = 100
 summ = last_number * (last_number + 1)/2
 
-print('sum ({0}..{1})={2:1d}'.format(first_number, last_number, summ))
+print('sum ({0}..{1}) = {2:.0f}'.format(first_number, last_number, summ))
