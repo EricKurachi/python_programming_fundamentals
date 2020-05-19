@@ -1,2 +1,2 @@
 # python_programming_fundamentals
-Resolução de exercícios do livro "Python Programming Fundamentals" de Kent D. Lee
+Solutions of the book "Python Programming Fundamentals" by Kent D. Lee
