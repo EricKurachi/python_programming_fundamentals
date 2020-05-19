@@ -12,3 +12,4 @@ print(R2_height)
 
 total_area = R1_width * R1_height + R2_width * R2_height - 1 * 6
 print(total_area)
+

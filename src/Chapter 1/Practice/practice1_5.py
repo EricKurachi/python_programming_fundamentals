@@ -5,5 +5,5 @@ characters?
 """
 
 """ 
-The programmer determines it by setting the type of the variable 
+The programmer determines it by writing the value of the variable according to the desired type.
 """

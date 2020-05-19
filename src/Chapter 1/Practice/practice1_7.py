@@ -7,6 +7,6 @@ try to do that?
 
 """
 1. When we store a value in memory and give it a name
-2. To retrieve the value, just use de name that ws given
+2. To retrieve the value, just use de name that was given
 3. No, it gives an error
 """

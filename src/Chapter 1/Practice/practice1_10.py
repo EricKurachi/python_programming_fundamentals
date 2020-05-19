@@ -12,7 +12,7 @@ the square root. Try values 6 and 8 for sideA and sideB
 side_a = 6
 side_b = 8
 
-side_c = (6 ** 2 + 8 ** 2) ** (1/2)
+side_c = (side_a ** 2 + side_b ** 2) ** (0.5)
 
 print(side_c)
 
