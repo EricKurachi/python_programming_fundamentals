@@ -1,4 +1,5 @@
-"""Write a program that computes the minimum number of bills and coins needed
+"""
+Write a program that computes the minimum number of bills and coins needed
 to make change for a person. For instance, if you need to give $34.36 in change
 you would need one twenty, one ten, four ones, a quarter, a dime, and a penny.
 You don’t have to compute change for bills greater than $20 dollar bills or for
@@ -16,7 +17,8 @@ The bills or the change should be:
 1 quarters
 1 dimes
 0 nickels
-1 pennies"""
+1 pennies
+"""
 
 cost = float(input('How much did the item cost: '))
 pay = float(input('How much did the person give you: '))
@@ -44,6 +46,7 @@ print("{} dimes".format(int(change/0.1)))
 change %= 0.1
 
 print("{} nickels".format(int(change/0.05)))
+change %= 0.05
 
 print("{0:.0f} pennies".format(change*100))
 
