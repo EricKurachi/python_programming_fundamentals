@@ -8,7 +8,7 @@ twice to see how it behaves when you enter “December” and how it behaves
 when you enter something else.
 """
 
-chosen_month = input("please enter the name of a month: ")
+chosen_month = input("please enter a month: ")
 
 if chosen_month == "December":
     print("Merry Christmas!")

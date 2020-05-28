@@ -10,10 +10,10 @@ except ValueError:
     print("You did not enter your age correctly")
     exit(0)
 
-own_license = input("Do you have a license?: ")
-parent_license = input("Do your parent have a license?: ")
+own_license = input("Do you have a fishing license (yes/no)?: ")
+parent_license = input("Do your parent have a fishing license (yes/no)?: ")
 
-if (age <= 15 and parent_license == 'yes') or (age > 15 and own_license == 'yes'):
+if (age < 16 and parent_license == 'yes') or own_license == 'yes':
     print("You are legal to fish in Minnesota")
 else:
     print("You are not legal to fish in Minnesota")

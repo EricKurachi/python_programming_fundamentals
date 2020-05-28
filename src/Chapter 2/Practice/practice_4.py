@@ -29,6 +29,8 @@ elif chosen_month == "October":
     print("Fall Colors")
 elif chosen_month == "November":
     print("Turkey Day")
-else:
+elif chosen_month == "December":
     print("Merry Christmas!")
+else:
+    print("You entered an invalid month")
 

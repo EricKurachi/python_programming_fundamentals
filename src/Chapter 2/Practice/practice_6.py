@@ -7,10 +7,10 @@ they have a license or not, and whether their parent has a license or not.
 """
 
 age = int(input("Please enter your age: "))
-own_license = input("Do you have a license?: ")
-parent_license = input("Do your parent have a license?: ")
+own_license = input("Do you have a fishing license?: ")
+parent_license = input("Do your parent have a fishing license?: ")
 
-if (age <= 15 and parent_license == 'yes') or (age > 15 and own_license == 'yes'):
+if (age < 16 and parent_license == 'yes') or own_license == 'yes':
     print("You are legal to fish in Minnesota")
 else:
     print("You are not legal to fish in Minnesota")

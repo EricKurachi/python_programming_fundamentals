@@ -11,7 +11,7 @@ determine if they are eligible to run for President.
 
 naturalness = input("Please enter your citizenship: ")
 age = int(input("Please enter your age: "))
-residence_time = int(input("Please enter for how many years did you live in the US: "))
+residence_time = int(input("Please enter for how many years have you lived in the U.S.: "))
 
 status = "you are eligible to run for President of the USA"
 

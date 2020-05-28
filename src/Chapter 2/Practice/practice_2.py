@@ -7,7 +7,7 @@ it behaves when “December” is entered and how the program behaves when
 anything else is entered.
 """
 
-chosen_month = input("please enter the name of a month: ")
+chosen_month = input("please enter a month: ")
 
 if chosen_month == "December":
     print("Merry Christmas!")

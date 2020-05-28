@@ -7,9 +7,9 @@ if it isn’t. You may assume that the side lengths are integers. Let your guess
 that the message you will print is “It is a perfect triangle”.
 """
 
-side_a = int(input("Please insert the lenght of the shortest side: "))
-side_b = int(input("Please insert the lenght of the middle side: "))
-side_c = int(input("Please insert the lenght of the longest side: "))
+side_a = int(input("Please insert the length of the shortest side of the triangle: "))
+side_b = int(input("Please insert the length of the middle side of the triangle: "))
+side_c = int(input("Please insert the length of the longest side of the triangle: "))
 
 result = "It is a perfect triangle"
 
@@ -18,6 +18,9 @@ if (side_a % 3) != 0:
 if (side_b % 4) != 0:
     result = "It is not a perfect triangle"
 if (side_c % 5) != 0:
+    result = "It is not a perfect triangle"
+
+if side_a ** 2 + side_b ** 2 != side_c ** 2:
     result = "It is not a perfect triangle"
 
 print(result)
