@@ -12,6 +12,7 @@ side_b = int(input("Please insert the lenght of the middle side: "))
 side_c = int(input("Please insert the lenght of the longest side: "))
 
 result = "It is a perfect triangle"
+
 if (side_a % 3) != 0:
     result = "It is not a perfect triangle"
 if (side_b % 4) != 0:
