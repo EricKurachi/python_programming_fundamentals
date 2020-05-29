@@ -10,8 +10,8 @@ This is 1 yards , 1 feet , 2.098425 inches .
 
 centimeters = float(input("How many centimeters do you want to convert? "))
 
-to_yards = centimeters * 0.0109361
-to_feet = centimeters * 0.0328084
+to_yards = int(centimeters * 0.0109361)
+to_feet = int(centimeters * 0.0328084)
 to_inches = centimeters * 0.3937007874
 
 print("this is {} yards, {} feet, {} inches.".format(to_yards, to_feet, to_inches))
