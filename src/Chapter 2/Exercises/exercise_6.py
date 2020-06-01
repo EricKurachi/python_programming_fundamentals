@@ -7,9 +7,6 @@ correct output. In this version of the program you must handle all 16-bit signed
 integers. That means that you must handle numbers from −32768 to 32767. In
 this version of the program you should not print any leading 0’s. Leading 0’s
 should be omitted from the output.
-If you want to check your work, you can use the bin function. The bin function will
-take a decimal number and return a string representation of that binary number.
-However, you should not use the bin function in your solution.
 The output from the program must be identical to this:
 Please enter a number : 83
 The binary equivalent of 83 is 1010011.
