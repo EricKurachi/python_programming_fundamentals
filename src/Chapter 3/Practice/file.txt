@@ -1,0 +1,9 @@
+A file is a grouping of related data that can be read by a computer program. Files
+may be stored in many different places including the hard drive, a thumb drive, on
+a CD, at a network location, really any place where a program could have access to
+it. While files occur in many forms and sizes, a text file is a bunch of text written
+using an editor and usually stored on a hard drive. Files can be read and written from
+Python programs. Files are another type of sequence as far as Python programs are
+concerned and we can iterate over them just as we would any sequence. Files are
+sequences of strings, one string for each line of the file. To read from a file we open
+it and then iterate over the lines of the file.
