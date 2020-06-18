@@ -1,5 +1,5 @@
 """
-Complete the program started in Practice Problem 1.10. Write a program that
+Complete the program started in Practices Problem 1.10. Write a program that
 asks the user to enter the two legs of a right triangle. The program should print
 the length of the hypotenuse. If sideA and sideB are the lengths of the two legs
 and sideC is the length of the third leg of a right triangle, then the Pythagorean

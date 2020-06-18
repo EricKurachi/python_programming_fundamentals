@@ -1,5 +1,5 @@
 """
-Re-do Practice Problem 1.14 using format specifiers when
+Re-do Practices Problem 1.14 using format specifiers when
 printing instead of converting each item to a string. The goal is for the output
 to look exactly the same.
 sum (1..100)=5050
