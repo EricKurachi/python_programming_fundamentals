@@ -12,6 +12,10 @@ length = 0
 
 for i in numbers.split():
     length += 1
-    acc += float(i)
+    try:
+        acc += float(i)
+    except ValueError:
+        print("Sorry. One or more of the values is not a float")
+        exit(0)
 
 print("The average is", acc/length)
