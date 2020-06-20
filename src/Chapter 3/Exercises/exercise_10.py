@@ -14,34 +14,34 @@ class_grade = 0
 prod_acc = 0
 
 while credit != 0:
-    credit = int(input("Credits?"))
+    credit = int(input("Credits? "))
     credit_acc += credit
     if credit != 0:
-        grade = input("Grade?")
+        grade = input("Grade? ")
         if grade == "A":
             class_grade = 4 * credit
         elif grade == "A-":
-            class_grade += 3.7 * credit
+            class_grade = 3.7 * credit
         elif grade == "B+":
-            class_grade += 3.3 * credit
+            class_grade = 3.3 * credit
         elif grade == "B":
-            class_grade += 3 * credit
+            class_grade = 3 * credit
         elif grade == "B-":
-            class_grade += 2.7 * credit
+            class_grade = 2.7 * credit
         elif grade == "C+":
-            class_grade += 2.3 * credit
+            class_grade = 2.3 * credit
         elif grade == "C":
-            class_grade += 2 * credit
+            class_grade = 2 * credit
         elif grade == "C-":
-            class_grade += 1.7 * credit
+            class_grade = 1.7 * credit
         elif grade == "D+":
-            class_grade += 1.3 * credit
+            class_grade = 1.3 * credit
         elif grade == "D":
-            class_grade += 1 * credit
+            class_grade = 1 * credit
         elif grade == "D-":
-            class_grade += 0.7 * credit
+            class_grade = 0.7 * credit
         elif grade == "F":
-            class_grade += 0 * credit
+            class_grade = 0 * credit
         prod_acc += class_grade
 
 print("Your GPA is", prod_acc/credit_acc)
