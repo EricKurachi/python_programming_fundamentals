@@ -2,8 +2,9 @@
 Use the turtle module to write a program that draws a 4WD truck.
 """
 
-import turtle as t
+from turtle import *
 
+t = Turtle()
 screen = t.getscreen()
 wheel_radius = 30
 car_length = 250
