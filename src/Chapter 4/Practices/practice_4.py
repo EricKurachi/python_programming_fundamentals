@@ -13,4 +13,4 @@ t.left(72.5)
 t.forward(25)
 screen.exitonclick()
 
-# position at the end (-7.79,22.96)
+# position at the peak of the pentagon (12.04,38.18)
