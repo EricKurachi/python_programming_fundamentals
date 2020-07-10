@@ -21,13 +21,13 @@ auto_turtle = [turtle.Turtle(), turtle.Turtle(), turtle.Turtle()]
 screen = auto_turtle[0].getscreen()
 screen.setworldcoordinates(0, 0, 250, 100)
 
-date_nxt = datetime.datetime.strptime(auto_data[0][0][2], "%Y-%m-%d")
+date_nxt = datetime.datetime.strptime(auto_data[0][0][2] + ' ' + auto_data[0][0][3], "%Y-%m-%d %I:%M %p")
 time = 0
 for i in range(len(auto_file)):
     for line in auto_data[i]:
         if line[0] == "Gas":
             date_ant = date_nxt
-            date_nxt = datetime.datetime.strptime(line[2], "%Y-%m-%d")
+            date_nxt = datetime.datetime.strptime(line[2] + ' ' + line[3], "%Y-%m-%d %I:%M %p")
             time += float((date_ant - date_nxt).total_seconds())/(3600*24)
             auto_turtle[i].goto(time, float(line[1]))
 
