@@ -42,16 +42,15 @@ for line in auto_data:
         auto_turtle.goto(time, float(line[1]))
         auto_turtle.pendown()
         auto_turtle.dot(20, 'blue')
-
-m = (x_sum * y_sum - n * (x_sum/n) * (y_sum/n))/(x_square_sum - n * (x_sum/n) ** 2)
-y_1 = (y_sum/n) + m * (0 - x_sum)
-y_2 = (y_sum/n) + m * (30 - x_sum)
-
+        
+m = (x_y_sum - n * (x_sum/n) * (y_sum/n))/(x_square_sum - n * (x_sum/n) ** 2)
+y_1 = (y_sum/n) + m * (0 - (x_sum/n))
+y_2 = (y_sum/n) + m * (30 - (x_sum/n))
+print(y_1, y_2)
 auto_turtle.penup()
 auto_turtle.goto(0, y_1)
 auto_turtle.pendown()
 auto_turtle.goto(30, y_2)
 
-print(y_1, y_2)
 
 screen.exitonclick()
