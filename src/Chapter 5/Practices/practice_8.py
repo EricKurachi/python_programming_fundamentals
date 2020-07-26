@@ -1,1 +1,1 @@
-"It would return an error because strings are imutable"
+"It would return an error because strings are immutable"
