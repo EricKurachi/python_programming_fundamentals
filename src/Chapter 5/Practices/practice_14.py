@@ -13,4 +13,4 @@ def factorial(n):
 
 print(factorial(5))
 
-# It goes from 5 to 0 decrementing each function call
+# There are six different variables n going from 5 to 0 decrementing each function call
