@@ -13,4 +13,4 @@ def factorial(n):
 print(factorial(5))
 """ 
     
-# It would return an error, because the recursive case is always called and enters again in the function never checking the base case.
+# It would return an error, because the recursive case is always called and enters again in the function never checking the base case until the run-time stack overflows.
