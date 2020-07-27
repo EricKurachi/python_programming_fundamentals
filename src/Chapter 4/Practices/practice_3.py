@@ -11,21 +11,28 @@ car_length = 250
 
 t.color('black', 'gray')
 t.begin_fill()
-t.forward(car_length)  # bottom
+# bottom
+t.forward(car_length)  
+# bumper
 t.left(90)
-t.forward(50)   # bumper
+t.forward(50)   
+# hood
 t.left(90)
-t.forward(40)   # hood
+t.forward(40)   
+# roof
 t.right(45)
 t.forward(70)
 t.left(45)
 t.forward(40)
 t.left(90)
-t.forward(45)   # roof
+t.forward(45)   
+# tail
 t.right(90)
-t.forward(120)  # tail
+t.forward(120)  
+# rear bumper
 t.left(90)
-t.forward(55)   # rear bumper
+t.forward(55)  
+# end 
 t.end_fill()
 
 t.penup()
