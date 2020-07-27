@@ -3,7 +3,7 @@ Write a program that contains a drawTruck function that given an x,y coordinate
 on the screen draws a truck using Turtle graphics.
 """
 
-from turtle import *
+import turtle
 
 def drawTruck(x, y, t): 
     t.penup()
@@ -54,7 +54,7 @@ def drawTruck(x, y, t):
 
 
 def main():
-    t = Turtle()
+    t = turtle.Turtle()
     screen = t.getscreen()
     drawTruck(40, 200, t)
     screen.exitonclick()
