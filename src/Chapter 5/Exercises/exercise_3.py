@@ -1,3 +1,9 @@
+"""
+Write a program that contains a function called drawRegularPolygon where you
+give it a Turtle, the number of sides of the polygon, and the side length and it
+draws the polygon for you
+"""
+
 import turtle
 
 def draw_regular_polygon(t, n_sides, side_length):
